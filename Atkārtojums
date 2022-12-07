@@ -1,0 +1,43 @@
+teksts = 'Python'
+skaitlis = 5
+man_ir_dators = True
+
+saraksts_ar_tekstiem = ['Python', 'Java', 'C#']
+saraksts_ar_skatiliem = [4, 3, 2, 1]
+
+vārdnīca = {
+    'vārds': 'Anna',
+    'uzvārds': 'Bērziņa',
+    'vecums': 18
+}
+
+saraksts_ar_vārdnīcām = [
+    {   
+         'vārds': 'Anna',
+         'uzvārds': 'Bērziņa',
+         'vecums': 18
+    },
+    {    
+         'vārds': 'Anna',
+         'uzvārds': 'Bērziņa',
+         'vecums': 18
+    },
+    {   
+         'vārds': 'Anna',
+         'uzvārds': 'Bērziņa',
+         'vecums': 18
+    }
+]
+
+has_laptop = True
+has_console = False
+has_tv = True
+
+if has_tv and has_console:
+        print('YOu can play!')
+else:
+        print('Sorry, cannot play')
+if has_laptop or has_console:
+        print('You can play this game!')
+else:
+        print('Sorry, cannot play!')
